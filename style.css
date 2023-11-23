@@ -1,0 +1,45 @@
+* {
+    color: #493269
+}
+
+.barras {
+    
+    border: #7d03d3 5px solid;
+    border-radius: 20px;
+    width: 450px;
+    right: 20px;
+    top: 200px;
+    position: absolute;
+}
+
+.menu {
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    width: auto;
+    height: 40px;
+    position: relative;
+    left: 25px;
+    top: 15px;
+}
+
+.barra {
+    opacity: 0.5;
+    width: 1340px;
+    height: 60px;
+    border: #7d03d3 5px solid;
+    border-radius: 20px;
+    position: absolute;
+}
+
+p {
+    margin-right: 450px;
+}
+
+h2 {
+    margin-left: 400px;
+}
+
+body {
+    background-color: #aea8c8;
+}
