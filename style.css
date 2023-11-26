@@ -1,5 +1,5 @@
 .imagen-inicio {
-    margin-left: 887px;
+    margin-left: 287px;
     position:absolute;
 }
 
@@ -13,9 +13,10 @@
     border:#7d03d3 5px solid;
     border-radius: 20px;
     width: 870px;
+    left: 250px;
     position: absolute;
     z-index: -1;
-    height: 353px;
+    height: 433px;
 }
 
 .contraste-texto-personajes {
@@ -23,6 +24,7 @@
     border:#7d03d3 5px solid;
     border-radius: 20px;
     width: 870px;
+    left: 250px;
     position: absolute;
     z-index: -1;
     height: 633px;
@@ -34,13 +36,16 @@
     width: auto;
     height: 40px;
     position: relative;
-    left: 25px;
+    left: 280px;
     top: 15px;
+    border-radius: 5px;
+    color:#7d03d3;
 }
 
 .navbar {
+    left: 250px;
     opacity: 0.5;
-    width: 1340px;
+    width: 870px;
     height: 60px;
     border: #7d03d3 5px solid;
     border-radius: 20px;
@@ -48,15 +53,14 @@
 }
 
 .texto-principal {
-
-    margin-right: 490px;
+    margin-right: 260px;
     line-height: 22px;
-    margin-left: 23px;
+    margin-left: 280px;
 }
 
 h2 {
     color: #7d03d3;
-    margin-left: 400px;
+    margin-left: 280px;
 }
 
 body {
