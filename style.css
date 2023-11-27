@@ -27,8 +27,19 @@
     left: 250px;
     position: absolute;
     z-index: -1;
-    height: 930px;
+    height: 1090px;
 }
+.contraste-texto-episodes {
+    opacity: 0.5;
+    border:#7d03d3 5px solid;
+    border-radius: 20px;
+    width: 870px;
+    left: 250px;
+    position: absolute;
+    z-index: -1;
+    height: 590px;
+}
+
 .menu {
     font-size: 18px;
     line-height: 20px;
@@ -53,6 +64,7 @@
 }
 
 .texto-principal {
+    color:#7d03d3;
     margin-right: 260px;
     line-height: 22px;
     margin-left: 280px;
@@ -66,6 +78,34 @@ h2 {
 body {
     background-color: #aea8c8;
 }
-h1 {
+.nombre {
     color: #7d03d3;
+    margin-left: 450px;
+}
+
+.resena {
+    position: relative;
+    margin-right: 340px;
+    line-height: 22px;
+    color:#7d03d3
+}
+
+.foto-inicio {
+    position: absolute;
+    border:#9556ce 5px solid;
+    border-radius: 20px;
+    margin-left: 470px
+}
+
+.fotos-personajes {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 585px;
+}
+
+.descripcion-personajes {
+    position: relative;
+    margin-right: 240px;
+    line-height: 22px;
+    color:#7d03d3
 }
