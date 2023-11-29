@@ -5,13 +5,13 @@
 
 .frame {
     border:#9556ce 5px solid;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .contraste-texto-inicio {
     opacity: 0.5;
     border:#7d03d3 5px solid;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 870px;
     left: 250px;
     position: absolute;
@@ -22,7 +22,7 @@
 .contraste-texto-personajes {
     opacity: 0.5;
     border:#7d03d3 5px solid;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 870px;
     left: 250px;
     position: absolute;
@@ -32,7 +32,7 @@
 .contraste-texto-episodes {
     opacity: 0.5;
     border:#7d03d3 5px solid;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 870px;
     left: 250px;
     position: absolute;
@@ -42,7 +42,7 @@
 
 .menu {
     font-size: 18px;
-    line-height: 20px;
+    line-height: 10px;
     text-align: center;
     width: auto;
     height: 40px;
@@ -59,8 +59,17 @@
     width: 870px;
     height: 60px;
     border: #7d03d3 5px solid;
-    border-radius: 20px;
+    border-radius: 10px;
     position: absolute;
+}
+
+.imagen-arriba {
+    position: relative;
+    left: 243px;
+    width: 870px;
+    height: 160px;
+    border: #be79e1 5px solid;
+    border-radius: 10px;
 }
 
 .texto-principal {
@@ -76,7 +85,8 @@ h2 {
 }
 
 body {
-    background-color: #aea8c8;
+    background-image: url("images/background.jpg");
+    background-repeat: repeat;
 }
 .nombre {
     color: #7d03d3;
@@ -93,7 +103,7 @@ body {
 .foto-inicio {
     position: absolute;
     border:#9556ce 5px solid;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-left: 470px
 }
 
